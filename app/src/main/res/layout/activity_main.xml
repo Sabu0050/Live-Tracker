@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sabu.livetracker.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/background" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Live Tracker"
+        android:textSize="25sp"
+        android:layout_marginTop="11dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/latTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="37dp"
+        android:text="Latitute:"
+        android:textSize="15sp"
+        android:textColor="#ffffff"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/lonTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/latTextView"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="12dp"
+        android:text="Longtitute:"
+        android:textSize="15sp"
+        android:textColor="#ffffff"
+        android:textStyle="italic"/>
+    <TextView
+        android:id="@+id/addressTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/lonTextView"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="12dp"
+        android:text="Address: \n Just for view \n Town"
+        android:textSize="15sp"
+        android:textColor="#ffffff"
+        android:textStyle="italic"/>
+
+</RelativeLayout>
